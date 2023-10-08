@@ -1,0 +1,238 @@
+a,
+a:hover,
+a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.header-banner {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.proceed-checkout ul {
+  border: 2px solid #ebebeb;
+  background: #f3f3f3;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.proceed-checkout ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #252525;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.proceed-checkout ul li.subtotal {
+  font-weight: 400;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 14px;
+}
+
+.proceed-checkout ul li.subtotal span {
+  font-weight: 700;
+}
+
+.proceed-checkout ul li.cart-total {
+  padding-top: 10px;
+}
+
+.proceed-checkout ul li.cart-total span {
+  color: #e7ab3c;
+}
+
+.proceed-checkout ul li span {
+  float: right;
+}
+
+.proceed-checkout input {
+  display: none;
+}
+
+.proceed-checkout .proceed-btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #252525;
+  text-transform: uppercase;
+  padding: 15px 25px 14px 25px;
+  display: block;
+  text-align: center;
+}
+
+.cart-table {
+  border: 1px solid #6c757d;
+}
+
+.cart-table tr th {
+  font-size: 16px;
+  color: #252525;
+  font-weight: 700;
+  border-bottom: 1px solid #6c757d !important;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+.cart-table tr td {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+
+.cart-table tr td.cart-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-active {
+  background-color: white;
+  color: black;
+}
+
+html {
+  /* untuk  klik menu agar smooth pindahnya*/
+  scroll-behavior: smooth;
+}
+
+#sidebar {
+  border-right: 1px solid rgb(223, 223, 223);
+  min-height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+  #sidebar {
+    min-height: 50%;
+  }
+}
+
+ul .list-group-item {
+  padding: 0;
+}
+
+ul .list-group-item a {
+  color: black;
+}
+
+ul .list-group-item a:hover {
+  background-color: #eaeaee;
+  color: black;
+}
+
+.dashboard {
+  background-color: #f4f6f9;
+}
+
+.exact-active-link {
+  font-weight: bold;
+}
+
+.image-preview-label {
+  padding: 7px 7px;
+  background-color: #4285f4;
+  color: #ffffff;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.image-preview-label:hover {
+  background-color: #3367d6;
+}
+
+.image-preview-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  position: relative;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.image-preview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+a.remove-button {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+}
+
+a.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.img-product-home {
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-thumbnail {
+  border: 1px solid black;
+}
+
+.product-thumbnail img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.product-images {
+  cursor: pointer;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.product-images img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-images.active {
+  border: 1px solid black;
+}
+
+.image-preview-payment {
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+}
